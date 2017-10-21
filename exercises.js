@@ -125,6 +125,7 @@ console.log(quotient)
 function checkSum(x){
 	return string
 }
+
 console.log(sum)
 
 /*
@@ -194,16 +195,14 @@ console.log(product, quotient)
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-function addThenSubtract{
-	var bango3 = 3
-	var bango4 = 4
-	var bango5 = 5
-}
+var bango3=3
+var bango4=4
+var bango5=5
 
 function addThenSubtract(num1, num2, num3){
-	
+	return num1 + num2 - num3
 }
-
+console.log()
 
 /*
  * #11
