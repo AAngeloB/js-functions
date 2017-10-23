@@ -122,11 +122,11 @@ console.log(quotient)
  * This function will return the string "Mariah Carey has been married `x` amount of times." Where `x` is the value when you invoke the function. Invoke this function using the variable `sum`. 
  * Console.log your result.
 */
-function checkSum(x){
-	return string
-}
+function checkSum(x) {
+	return "Mariah Carey has been married " +x+ " amount of times."
+};
 
-console.log(sum)
+console.log(checkSum(69));
 
 /*
  * #7
@@ -140,9 +140,9 @@ console.log(sum)
  * Console.log your results.
 */ 
 function checkDifference(x){
-	return String
-}
-console.log(difference)
+	return "Last night I dreamt that I ate " +x+ " Taco Bell soft tacos."
+};
+console.log(checkDifference(0.5))
 
 /*
  * #8
@@ -155,7 +155,7 @@ console.log(difference)
  * Console.log your result.  
 */
 function checkProduct(){
-	return Number
+	return 
 }
 console.log(sum, product)
 
@@ -195,14 +195,15 @@ console.log(product, quotient)
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-var bango3=3
-var bango4=4
-var bango5=5
+var bango3=3;
+var bango4=4;
+var bango5=5;
 
 function addThenSubtract(num1, num2, num3){
-	return num1 + num2 - num3
-}
-console.log()
+	return (num1,num2) - num3
+};
+
+console.log(addThenSubtract(bango1,bango2,bango3))
 
 /*
  * #11
@@ -217,8 +218,10 @@ console.log()
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
-
+function multiplyThenDivide(num1, num2, num3){
+	return (num1,num2) / num3
+}
+console.log(multiplyThenDivide(bango1,bango2,bango3))
 
 /*
  * #12
@@ -231,7 +234,7 @@ console.log()
  *
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
-
+function 
 
 
 /*
