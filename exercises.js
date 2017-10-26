@@ -46,8 +46,8 @@ var bango2 = 1;
 function add(num1,num2) {
 	return num1+num2;
 }
-var sum = add(2, 1)
-console.log (sum)
+var sum = add(bango1, bango2)
+console.log(sum)
 
 
 /*
@@ -66,7 +66,7 @@ console.log (sum)
 function subtract(num1, num2){
 	return num1 - num2
 }
-var difference = subtract(2, 1)
+var difference = subtract(bango1, bango2)
 console.log(difference)
 
 /*
@@ -85,7 +85,7 @@ console.log(difference)
 function multiply(num1, num2){
 	return num1 * num2
 }
-var product = multiply(2, 1)
+var product = multiply(bango1, bango2)
 console.log(product)
 
 
@@ -106,7 +106,7 @@ console.log(product)
 function divide(num1, num2){
 	return num1 / num2
 }
-var quotient = divide(2, 1)
+var quotient = divide(bango1, bango2)
 console.log(quotient)
 
 
@@ -125,8 +125,7 @@ console.log(quotient)
 function checkSum(x) {
 	return "Mariah Carey has been married " +x+ " amount of times."
 };
-
-console.log(checkSum(69));
+console.log(checkSum(sum))
 
 /*
  * #7
@@ -142,7 +141,7 @@ console.log(checkSum(69));
 function checkDifference(x){
 	return "Last night I dreamt that I ate " +x+ " Taco Bell soft tacos."
 };
-console.log(checkDifference(0.5))
+console.log(checkDifference(difference))
 
 /*
  * #8
@@ -155,9 +154,9 @@ console.log(checkDifference(0.5))
  * Console.log your result.  
 */
 function checkProduct(){
-	return 
+	console.log(sum * product)
 }
-console.log(sum, product)
+
 
 
 /*
@@ -171,9 +170,9 @@ console.log(sum, product)
  * Console.log your result.  
 */
 function checkQuotient(){
-	return Number
+	console.log(product * quotient)
 }
-console.log(product, quotient)
+
 
 
 /*
@@ -200,10 +199,10 @@ var bango4=4;
 var bango5=5;
 
 function addThenSubtract(num1, num2, num3){
-	return (num1,num2) - num3
+	console.log((num1+num2) - num3)
 };
 
-console.log(addThenSubtract(bango1,bango2,bango3))
+addThenSubtract(bango1,bango2,bango3)
 
 /*
  * #11
@@ -219,9 +218,9 @@ console.log(addThenSubtract(bango1,bango2,bango3))
  * Console.log your result.
 */ 
 function multiplyThenDivide(num1, num2, num3){
-	return (num1,num2) / num3
+	console.log((num1*num2) / num3)
 }
-console.log(multiplyThenDivide(bango1,bango2,bango3))
+multiplyThenDivide(bango1,bango2,bango3);
 
 /*
  * #12
@@ -234,8 +233,10 @@ console.log(multiplyThenDivide(bango1,bango2,bango3))
  *
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
-function 
-
+function createFullName(firstName, lastName){
+	return firstName + lastName
+}
+createFullName("Angelo", "Barangan");
 
 /*
  * #13 
@@ -250,8 +251,10 @@ function
  * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
  * Console.log your result.
  */
-
-
+function eatFood(firstName, lastName, food){ 
+	return firstName + lastName + " likes to eat " + food;
+}
+console.log(eatFood("Angelo", "Barangan", "Pizza"));
 
 /************** ENGAGE HYPERDRIVE **************/
 /* No more training wheels! For the exercises #14-18, use the experience you've
@@ -277,8 +280,10 @@ function
  * Example input: "believe you can and you're halfway there."
  * Example output: "BELIEVE YOU CAN AND YOU'RE HALFWAY THERE."
 */
- 
-
+ function allCaps(str) {
+ 		return str.toUpperCase();
+ }
+console.log(allCaps("WHATS UP!"))
 
 /*
  * #16
